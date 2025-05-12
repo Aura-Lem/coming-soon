@@ -8,6 +8,7 @@
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
+    justify-content: center;
 }
 
 .logo {
