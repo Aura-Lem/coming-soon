@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .bg-blue {
     background-color: #03a9f5;
 }
@@ -114,4 +118,22 @@ footer a {
     }
 }
 
+footer .row {
+    position: relative;
+}
+
+.back-to-top {
+    font-size: 1.7rem;
+    line-height: 1.8em;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    position: absolute;
+    top: -1em;
+    right: -0.7em;
+    background-color: #eb1e61;
+    text-align: center;
+    box-shadow: 0 0.2em 0.4em #0006;
+    text-decoration: none;
+}
 
